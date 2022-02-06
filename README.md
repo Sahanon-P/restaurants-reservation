@@ -1,5 +1,13 @@
 # restaurants-reservation
 
+Suppose that you have a restaurant and you want to create an API for your customer to make a reservation.  
+
+***Assumption***    
+ - Your restaurant is open 24 hours.
+ - Your restaurant has a total of 12 tables.
+ - Every customer is allowed to make a reservation on one table for only 1 hour    
+ **examples:** when Jim makes a reservation for table 6 at 12:00 then the table 6 will be available at 13:00.
+
 ## API Description
 
 ### 1. `GET` Get the reservation by name
